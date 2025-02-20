@@ -50,37 +50,37 @@ spec:
               containerPort: 5060
               protocol: UDP
             - name: rtp-10000
-              containerPort: 100000
+              containerPort: 10000
               protocol: UDP
             - name: rtp-10001
-              containerPort: 100001
+              containerPort: 10001
               protocol: UDP
             - name: rtp-10002
-              containerPort: 100002
+              containerPort: 10002
               protocol: UDP
             - name: rtp-10003
-              containerPort: 100003
+              containerPort: 10003
               protocol: UDP
             - name: rtp-10004
-              containerPort: 100004
+              containerPort: 10004
               protocol: UDP
             - name: rtp-10005
-              containerPort: 100005
+              containerPort: 10005
               protocol: UDP
             - name: rtp-10006
-              containerPort: 100006
+              containerPort: 10006
               protocol: UDP
             - name: rtp-1007
-              containerPort: 100007
+              containerPort: 10007
               protocol: UDP
             - name: rtp-10008
-              containerPort: 100008
+              containerPort: 10008
               protocol: UDP
             - name: rtp-10009
-              containerPort: 100009
+              containerPort: 10009
               protocol: UDP
             - name: rtp-10010
-              containerPort: 100010
+              containerPort: 10010
               protocol: UDP
           {{- with .Values.resources }}
           resources:
