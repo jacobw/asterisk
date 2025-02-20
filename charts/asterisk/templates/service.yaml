@@ -11,5 +11,57 @@ spec:
       targetPort: http
       protocol: TCP
       name: http
+    - port: 5060
+      targetPort: sip-tcp
+      protocol: TCP
+      name: sip-tcp
+    - port: 5060
+      targetPort: sip-udp
+      protocol: UDP
+      name: sip-udp
+    - port: 10000
+      targetPort: rtp-10000
+      protocol: UDP
+      name: rtp-10000
+    - port: 10001
+      targetPort: rtp-10001
+      protocol: UDP
+      name: rtp-10001
+    - port: 10002
+      targetPort: rtp-10002
+      protocol: UDP
+      name: rtp-10002
+    - port: 10003
+      targetPort: rtp-10003
+      protocol: UDP
+      name: rtp-10003
+    - port: 10004
+      targetPort: rtp-10004
+      protocol: UDP
+      name: rtp-10004
+    - port: 10005
+      targetPort: rtp-10005
+      protocol: UDP
+      name: rtp-10005
+    - port: 10006
+      targetPort: rtp-10006
+      protocol: UDP
+      name: rtp-10006
+    - port: 10007
+      targetPort: rtp-10007
+      protocol: UDP
+      name: rtp-10007
+    - port: 10008
+      targetPort: rtp-10008
+      protocol: UDP
+      name: rtp-10008
+    - port: 10009
+      targetPort: rtp-10009
+      protocol: UDP
+      name: rtp-10009
+    - port: 10010
+      targetPort: rtp-10010
+      protocol: UDP
+      name: rtp-10010
   selector:
     {{- include "asterisk.selectorLabels" . | nindent 4 }}
