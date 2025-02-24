@@ -3,6 +3,16 @@ entries:
   asterisk:
   - apiVersion: v2
     appVersion: 20.11.1
+    created: "2025-02-24T06:24:29.283265471Z"
+    description: A Helm chart for Kubernetes
+    digest: b8c51b819e57850855d775558b9f64dcb3818b721e8c153c93ffb3a932fb4f48
+    name: asterisk
+    type: application
+    urls:
+    - https://github.com/jacobw/asterisk/releases/download/asterisk-0.1.7/asterisk-0.1.7.tgz
+    version: 0.1.7
+  - apiVersion: v2
+    appVersion: 20.11.1
     created: "2025-02-24T06:22:07.474800926Z"
     description: A Helm chart for Kubernetes
     digest: 044889bde44c06090a2bd40484e251c9e5c8e663cdda227ee285520e48449561
@@ -71,4 +81,4 @@ entries:
     urls:
     - https://github.com/jacobw/asterisk/releases/download/asterisk-0.1.0/asterisk-0.1.0.tgz
     version: 0.1.0
-generated: "2025-02-24T06:22:07.474824961Z"
+generated: "2025-02-24T06:24:29.283293403Z"
